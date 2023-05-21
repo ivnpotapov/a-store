@@ -1,0 +1,12 @@
+.wrap {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+@media screen and (min-width: 960px) {
+  .wrap {
+    top: 10%;
+    bottom: auto;
+  }
+}

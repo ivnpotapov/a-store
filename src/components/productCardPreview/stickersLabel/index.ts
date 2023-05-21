@@ -1,0 +1,1 @@
+export { StickersLabel } from './stickersLabel';

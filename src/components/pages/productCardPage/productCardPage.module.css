@@ -1,0 +1,19 @@
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.loader {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+  .wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}

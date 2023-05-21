@@ -1,0 +1,1 @@
+export { PromoCodeRightAddons } from './promoCodeRightAddons';

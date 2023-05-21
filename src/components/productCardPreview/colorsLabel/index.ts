@@ -1,0 +1,1 @@
+export { ColorsLabel } from './colorsLabel';

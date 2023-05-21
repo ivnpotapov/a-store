@@ -1,0 +1,6 @@
+.stickerText {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  max-width: 70px;
+}

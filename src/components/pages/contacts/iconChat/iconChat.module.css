@@ -1,0 +1,38 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(1.02);
+  }
+
+  90% {
+    transform: scale(1.03);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.circle {
+  position: fixed;
+  bottom: 50px;
+  left: 30px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-radius: 50%;
+}
+
+.circlePulse {
+  animation: pulse 2s infinite;
+}
+
+.circle:hover {
+  cursor: pointer;
+}
+
+.popover {
+  background-color: transparent;
+  box-shadow: none;
+}

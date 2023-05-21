@@ -1,0 +1,4 @@
+.circle:hover {
+  cursor: pointer;
+  transform: scale(105%);
+}

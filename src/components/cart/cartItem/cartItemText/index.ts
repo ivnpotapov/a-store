@@ -1,0 +1,1 @@
+export { CartItemText } from './cartItemText';

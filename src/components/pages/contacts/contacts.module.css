@@ -1,0 +1,27 @@
+.wrap {
+  width: 320px;
+  padding: 20px 5px 0 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (min-width: 425px) {
+  .wrap {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    width: 740px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrap {
+    width: 1200px;
+  }
+}

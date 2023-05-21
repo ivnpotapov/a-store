@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.link {
+  text-decoration-color: var(--color-light-text-tertiary);
+  max-width: 200px;
+  color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 20px 30px;
+  }
+
+  .wrap {
+    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

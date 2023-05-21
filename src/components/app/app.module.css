@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'StyreneA', Arial, sans-serif;
+  font-feature-settings: 'ss01';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

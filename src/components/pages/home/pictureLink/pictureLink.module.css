@@ -1,0 +1,29 @@
+.imgWrap {
+  flex-grow: 1;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}

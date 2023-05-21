@@ -1,0 +1,30 @@
+.colorWrap {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 120px;
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0;
+  list-style: none;
+}
+
+.colorItem {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.colorItem:first-child {
+  width: 30px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 425px) {
+  .colorItem {
+    width: 20px;
+    height: 20px;
+  }
+}
